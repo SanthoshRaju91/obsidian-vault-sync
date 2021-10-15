@@ -35,6 +35,7 @@ push_to_github() {
     COMMIT_DATE=$(date '+%Y-%m-%d %H:%M:%S')    
     git add .
     git commit -m "Committed on ${COMMIT_DATE}"
+    git push -f
 }
 
 
